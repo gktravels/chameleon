@@ -1,6 +1,8 @@
-* {
+body {
   font-family: Verdana, sans-serif;
   font-size: small;
+  background-color: #99ADA0;
+  color: white;
   }
   
 header h1 {
