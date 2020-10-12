@@ -4,9 +4,70 @@ body {
   }
   
 header {
-  margin: 2em auto 0;
-  font-size: 400%;
-  color: white;
-  }
+	text-align: center;
+	font-size: 400%;
+	color: white;
+}
+header h1 {
+	margin: 2em auto 0;
+}
+header hr {
+	color: white;
+	width: 6em;
+}
+header h1, header hr {
+	-webkit-animation: anim1 1s ease-in 1s;
+	animation: anim1 1s ease-in 1s;
+	animation-fill-mode: both;
+}
+header p {
+	-webkit-animation: anim1 1s ease-in 2s;
+	animation: anim1 1s ease-in 2s;
+	animation-fill-mode: both;
+}
 
-h1 { color: white; }
+section {
+	min-width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+section h2 {
+	-webkit-animation: anim1 1s ease-in 3.5s;
+	animation: anim1 1s ease-in 3.5s;
+	animation-fill-mode: both;
+}
+section li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 2em 1em;
+	padding: 0.5em 1em;
+	border-radius: 1em;
+	background-color: white;
+	position: relative;
+	left: -1.5em;
+}
+section li.one {
+	-webkit-animation: anim1 1s ease-in 4.5s;
+	animation: anim1 1s ease-in 4.5s;
+	animation-fill-mode: both;
+}
+section li.two {
+	-webkit-animation: anim1 1s ease-in 5.5s;
+	animation: anim1 1s ease-in 5.5s;
+	animation-fill-mode: both;
+}
+section li.three {
+	-webkit-animation: anim1 1s ease-in 6.5s;
+	animation: anim1 1s ease-in 6.5s;
+	animation-fill-mode: both;
+}
+
+@-webkit-keyframes anim1 {
+	from { opacity: 0% }
+	to   { opacity: 100% }
+}
+
+@keyframes anim1 {
+	from { opacity: 0% }
+	to   { opacity: 100% }
+}
