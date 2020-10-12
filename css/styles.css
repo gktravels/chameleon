@@ -9,18 +9,18 @@ header {
 	color: white;
 }
 header h1 {
-	margin: 2em auto 0;
+	margin: 1.25em auto 0;
 }
 header hr {
 	color: white;
 	width: 6em;
 }
-header h1, header hr {
+.m-two {
 	-webkit-animation: anim1 1s ease-in 1s;
 	animation: anim1 1s ease-in 1s;
 	animation-fill-mode: both;
 }
-header p {
+.m-one {
 	-webkit-animation: anim1 1s ease-in 2s;
 	animation: anim1 1s ease-in 2s;
 	animation-fill-mode: both;
@@ -31,7 +31,7 @@ section {
 	margin: 0 auto;
 	text-align: center;
 }
-section h2 {
+.zero {
 	-webkit-animation: anim1 1s ease-in 3.5s;
 	animation: anim1 1s ease-in 3.5s;
 	animation-fill-mode: both;
@@ -46,20 +46,42 @@ section li {
 	position: relative;
 	left: -1.5em;
 }
-section li.one {
+.one {
 	-webkit-animation: anim1 1s ease-in 4.5s;
 	animation: anim1 1s ease-in 4.5s;
 	animation-fill-mode: both;
 }
-section li.two {
+.two {
 	-webkit-animation: anim1 1s ease-in 5.5s;
 	animation: anim1 1s ease-in 5.5s;
 	animation-fill-mode: both;
 }
-section li.three {
+.three {
 	-webkit-animation: anim1 1s ease-in 6.5s;
 	animation: anim1 1s ease-in 6.5s;
 	animation-fill-mode: both;
+}
+
+section.button { margin: 9em auto 5em }
+section a {
+	color: white;
+	background-color: #7AA0DE;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 150%;
+	padding: 1em;
+	border-radius: 1.5em;
+	clear: both;
+}
+.four {
+	-webkit-animation: anim1 1s ease-in 8.5s;
+	animation: anim1 1s ease-in 8.5s;
+	animation-fill-mode: both;
+}
+section a:hover {
+	background-color: #BACBE8;
+	border: 3px solid #7AA0DE;
+	color: #3167BD;
 }
 
 @-webkit-keyframes anim1 {
